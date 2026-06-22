@@ -1,0 +1,365 @@
+ticket_id,issue,created_at,closed_at,category,request_type,priority,status,assignee,requester,resolution_hours
+8,Software / application issue,2023-10-25 21:10:00,2024-03-14 18:59:00,Software & Licensing,Incident,medium,closed,Tech D,user_2fc158ae,3381.82
+9,VPN / network access request,2023-10-26 09:34:00,2023-10-26 10:06:00,Network & VPN,Service Request,medium,closed,Tech C,user_b26ce6b2,0.53
+10,Access / account request,2023-10-26 10:20:00,2023-10-26 11:26:00,Account & Access,Service Request,medium,closed,Tech C,user_152d5e88,1.1
+11,Security access / tool request,2023-10-27 10:38:00,2023-10-27 12:52:00,Security & Compliance,Service Request,medium,closed,Tech C,user_85d45e7b,2.23
+12,Access / account request,2023-10-30 08:48:00,2023-10-30 09:43:00,Account & Access,Service Request,medium,closed,Tech C,user_ebdfed37,0.92
+13,Security / antivirus issue,2023-11-06 18:04:00,2023-11-06 20:01:00,Security & Compliance,Incident,medium,closed,Tech A,user_2fc158ae,1.95
+14,New DNS record request,2023-11-08 04:19:00,2023-12-12 17:09:00,DNS & Domains,Service Request,medium,closed,Tech B,user_4e1bc6f5,828.83
+15,Security access / tool request,2023-11-08 09:13:00,2023-11-08 09:36:00,Security & Compliance,Service Request,medium,closed,Tech C,user_aecd036b,0.38
+16,Access / account request,2023-11-29 04:20:00,2023-11-29 06:18:00,Account & Access,Service Request,medium,closed,Tech C,user_b26ce6b2,1.97
+17,Security access / tool request,2023-11-29 06:42:00,2023-11-29 06:59:00,Security & Compliance,Service Request,medium,closed,Tech C,user_bfcb5173,0.28
+18,Access / account request,2023-12-01 06:22:00,2023-12-01 06:58:00,Account & Access,Service Request,medium,closed,Tech C,user_f9a4091d,0.6
+19,New hire setup,2023-12-04 05:08:00,2023-12-06 04:10:00,Account & Access,Onboarding,medium,closed,Tech C,user_5c4fd1f6,47.03
+20,Access / account request,2023-12-05 05:14:00,2023-12-05 05:37:00,Account & Access,Service Request,medium,closed,Tech C,user_d4eeecc4,0.38
+21,Access / account request,2023-12-06 06:10:00,2023-12-06 06:41:00,Account & Access,Service Request,medium,closed,Tech C,user_498b50e3,0.52
+22,VPN / network connectivity issue,2023-12-06 11:59:00,2024-03-14 18:59:00,Network & VPN,Incident,low,closed,Tech C,user_bfcb5173,2383.0
+24,VPN / network connectivity issue,2023-12-06 17:37:00,2024-09-05 18:32:00,Network & VPN,Incident,low,closed,Tech D,user_e0974a67,6576.92
+25,Access / account request,2023-12-08 12:45:00,2023-12-12 17:10:00,Account & Access,Service Request,medium,closed,Tech C,user_5f3af5a7,100.42
+26,VPN / network access request,2023-12-11 07:21:00,2023-12-12 17:09:00,Network & VPN,Service Request,medium,closed,Tech A,user_152d5e88,33.8
+27,Access / account request,2023-12-12 19:29:00,2023-12-13 15:45:00,Account & Access,Service Request,medium,closed,Tech C,user_fd284acf,20.27
+28,Access / account request,2023-12-13 07:14:00,2023-12-14 18:35:00,Account & Access,Service Request,medium,closed,Tech C,user_3be8a8a5,35.35
+29,VPN / network access request,2023-12-15 16:04:00,2023-12-15 17:47:00,Network & VPN,Service Request,medium,closed,Tech C,user_0f916524,1.72
+30,VPN / network access request,2023-12-15 20:04:00,2023-12-19 12:18:00,Network & VPN,Service Request,medium,closed,Tech C,user_feb3c4f9,88.23
+31,DNS record update,2023-12-15 23:35:00,2025-07-24 03:32:00,DNS & Domains,Change Request,high,closed,Tech B,user_a1000857,14067.95
+32,VPN / network access request,2023-12-19 12:11:00,2023-12-21 09:04:00,Network & VPN,Service Request,medium,closed,Tech C,user_bfcb5173,44.88
+33,VPN / network access request,2023-12-20 06:18:00,2023-12-20 10:25:00,Network & VPN,Service Request,medium,closed,Tech C,user_f99c3f26,4.12
+34,VPN / network access request,2023-12-20 06:50:00,2023-12-20 10:27:00,Network & VPN,Service Request,medium,closed,Tech C,user_2f56782a,3.62
+35,Email / group / alias request,2024-01-03 22:40:00,2024-01-04 18:14:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_0d49fda5,19.57
+36,Hardware failure / malfunction,2024-01-05 00:18:00,2024-01-08 18:58:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_a1000857,90.67
+37,Hardware / peripheral request,2024-01-09 09:43:00,2024-01-10 10:49:00,Hardware & Peripherals,Service Request,medium,closed,Tech C,user_36045edd,25.1
+38,VPN / network access request,2024-01-18 06:40:00,2024-01-18 08:52:00,Network & VPN,Service Request,medium,closed,Tech C,user_2f56782a,2.2
+39,Hardware configuration change,2024-01-18 10:20:00,2024-01-18 11:36:00,Hardware & Peripherals,Change Request,medium,closed,Tech C,user_3be8a8a5,1.27
+40,Hardware configuration change,2024-01-18 11:54:00,2024-01-18 12:47:00,Hardware & Peripherals,Change Request,high,closed,Tech C,user_f99c3f26,0.88
+41,Software / application issue,2024-01-18 21:38:00,2024-02-14 00:10:00,Software & Licensing,Incident,medium,closed,Tech A,user_6a83c8dc,626.53
+42,Access / account request,2024-01-23 06:56:00,2024-01-23 17:40:00,Account & Access,Service Request,medium,closed,Tech C,user_f99c3f26,10.73
+43,VPN / network access request,2024-01-30 06:11:00,2024-02-02 21:55:00,Network & VPN,Service Request,medium,closed,Tech C,user_f9a4091d,87.73
+44,VPN / network access request,2024-02-06 10:29:00,2024-02-06 11:11:00,Network & VPN,Service Request,medium,closed,Tech C,user_3be8a8a5,0.7
+45,Access / account request,2024-02-06 10:53:00,2024-02-06 11:11:00,Account & Access,Service Request,medium,closed,Tech C,user_3be8a8a5,0.3
+46,VPN / network access request,2024-02-06 17:11:00,2024-02-06 17:43:00,Network & VPN,Service Request,medium,closed,Tech C,user_f99c3f26,0.53
+47,Security / antivirus issue,2024-02-06 17:16:00,2024-02-20 04:02:00,Security & Compliance,Incident,medium,closed,Tech C,user_f99c3f26,322.77
+48,New DNS record request,2024-02-12 20:47:00,2024-09-03 18:32:00,DNS & Domains,Service Request,high,closed,Tech B,user_0d49fda5,4893.75
+49,Cloud configuration change,2024-02-13 05:28:00,2024-02-13 18:15:00,"Cloud, DevOps & Platform",Change Request,medium,closed,Tech C,user_882ca83a,12.78
+50,Access / account request,2024-02-14 06:13:00,2024-02-14 06:50:00,Account & Access,Service Request,medium,closed,Tech C,user_ab444e79,0.62
+51,VPN / network connectivity issue,2024-02-14 06:59:00,2024-02-19 12:30:00,Network & VPN,Incident,medium,closed,Tech C,user_f99c3f26,125.52
+52,VPN / network connectivity issue,2024-02-14 07:10:00,2024-02-14 11:54:00,Network & VPN,Incident,medium,closed,Tech C,user_cc93ed8a,4.73
+53,Software install / license request,2024-04-17 18:54:00,2024-04-17 20:26:00,Software & Licensing,Service Request,medium,closed,Tech A,user_2fc158ae,1.53
+54,New DNS record request,2024-04-17 18:59:00,2024-04-18 16:13:00,DNS & Domains,Service Request,high,closed,Tech B,user_7a859f55,21.23
+55,Software / application issue,2024-05-03 19:45:00,2024-05-23 16:43:00,Software & Licensing,Incident,medium,closed,Tech D,user_2fc158ae,476.97
+56,Hardware / peripheral request,2024-05-07 22:35:00,2024-05-16 18:01:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_e47ee107,211.43
+57,Security access / tool request,2024-05-07 23:23:00,2024-05-07 23:23:00,Security & Compliance,Service Request,medium,closed,Tech A,user_040e1d53,0.0
+58,Hardware / peripheral request,2024-05-09 16:27:00,2024-05-09 16:27:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_7c1bdecf,0.0
+59,Hardware failure / malfunction,2024-05-14 17:13:00,2024-05-14 17:14:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_b89acb0a,0.02
+60,Security / antivirus issue,2024-05-14 17:58:00,2024-05-14 18:00:00,Security & Compliance,Incident,medium,closed,Tech A,user_b32f246a,0.03
+61,Distribution list / email change,2024-05-14 20:44:00,2024-05-14 20:44:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_a1000857,0.0
+62,Phone / RingCentral setup,2024-05-16 16:42:00,2024-05-16 22:20:00,Mobile & Phone,Service Request,high,closed,Tech A,user_a1000857,5.63
+63,Hardware failure / malfunction,2024-05-16 20:04:00,2024-05-16 22:20:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_882ca83a,2.27
+64,VPN / network connectivity issue,2024-05-16 20:07:00,2024-05-16 20:39:00,Network & VPN,Incident,medium,closed,Tech D,user_2fc158ae,0.53
+65,New DNS record request,2024-05-16 21:53:00,2024-05-16 23:21:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,1.47
+66,Hardware / peripheral request,2024-05-16 23:08:00,2024-05-16 23:10:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_64ded2a8,0.03
+67,Hardware / peripheral request,2024-05-17 23:59:00,2024-05-21 21:40:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_882ca83a,93.68
+68,Email / group / alias request,2024-05-21 20:45:00,2024-06-11 23:18:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_2fc158ae,506.55
+69,Access / account request,2024-05-22 18:48:00,2024-05-22 22:36:00,Account & Access,Service Request,medium,closed,Tech A,user_a86471aa,3.8
+70,Software install / license request,2024-06-03 15:05:00,2024-06-03 15:33:00,Software & Licensing,Service Request,medium,closed,Tech A,user_2fc158ae,0.47
+71,Cloud resource / API key request,2024-06-06 01:13:00,2024-06-18 20:59:00,"Cloud, DevOps & Platform",Service Request,high,closed,Tech A,user_7a859f55,307.77
+72,New hire setup,2024-06-06 16:41:00,2024-06-06 16:41:00,Email & Collaboration,Onboarding,medium,closed,Tech A,user_a8a8576f,0.0
+73,Software / application issue,2024-06-06 17:26:00,2024-06-06 17:28:00,Software & Licensing,Incident,medium,closed,Tech A,user_b89acb0a,0.03
+74,Software / application issue,2024-06-06 18:52:00,2024-06-06 18:53:00,Software & Licensing,Incident,medium,closed,Tech A,user_75a8d236,0.02
+75,Software install / license request,2024-06-07 09:57:00,2024-06-07 10:01:00,Software & Licensing,Service Request,medium,closed,Tech C,user_2f56782a,0.07
+76,New hire setup,2024-06-07 10:07:00,2024-06-07 10:54:00,Account & Access,Onboarding,medium,closed,Tech C,user_5ccb5b36,0.78
+77,Cloud configuration change,2024-06-07 10:24:00,2024-06-07 10:58:00,"Cloud, DevOps & Platform",Change Request,medium,closed,Tech C,user_d0ab5925,0.57
+78,Software / application issue,2024-06-07 10:35:00,2024-06-07 10:55:00,Software & Licensing,Incident,high,closed,Tech C,user_2f56782a,0.33
+79,Access / account request,2024-06-07 11:08:00,2024-06-07 11:12:00,Account & Access,Service Request,medium,closed,Tech C,user_36045edd,0.07
+80,Cloud resource / API key request,2024-06-10 21:55:00,2024-06-12 05:06:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech D,user_838f5657,31.18
+81,Hardware failure / malfunction,2024-06-11 18:10:00,2024-06-11 18:13:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_64ded2a8,0.05
+82,VPN / network connectivity issue,2024-06-11 22:31:00,2024-06-12 19:26:00,Network & VPN,Incident,medium,closed,Tech D,user_2fc158ae,20.92
+83,New DNS record request,2024-06-12 01:37:00,2024-06-12 01:38:00,DNS & Domains,Service Request,high,closed,Tech B,user_d32856b5,0.02
+84,DNS record update,2024-06-17 17:53:00,2024-06-20 18:14:00,DNS & Domains,Change Request,medium,closed,Tech B,user_882ca83a,72.35
+85,Software / application issue,2024-06-17 23:51:00,2024-06-18 19:31:00,Software & Licensing,Incident,high,closed,Tech A,user_e0fbfdd4,19.67
+86,Software install / license request,2024-06-18 19:28:00,2024-06-25 17:10:00,Software & Licensing,Service Request,medium,closed,Tech B,user_2fc158ae,165.7
+87,Hardware / peripheral request,2024-06-20 18:15:00,2024-06-20 18:16:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_fecdb477,0.02
+88,Software install / license request,2024-06-27 00:00:00,2024-06-27 06:53:00,Software & Licensing,Service Request,medium,closed,Tech C,user_2fc158ae,6.88
+89,Hardware configuration change,2024-06-27 07:02:00,2024-06-27 11:35:00,Hardware & Peripherals,Change Request,medium,closed,Tech C,user_36045edd,4.55
+90,Software / application issue,2024-06-27 17:12:00,2024-06-27 17:13:00,Software & Licensing,Incident,medium,closed,Tech A,user_db4f7694,0.02
+91,New DNS record request,2024-06-27 17:58:00,2024-06-27 21:42:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,3.73
+92,Access / account request,2024-06-27 20:57:00,2024-06-27 21:05:00,Account & Access,Service Request,medium,closed,Tech A,user_d32856b5,0.13
+93,Security / antivirus issue,2024-06-28 18:03:00,2024-08-15 22:50:00,Security & Compliance,Incident,medium,closed,Tech A,user_56fc570b,1156.78
+94,Security / antivirus issue,2024-07-01 06:52:00,2024-07-01 10:58:00,Security & Compliance,Incident,medium,closed,Tech C,user_bc4d5a49,4.1
+95,Security / antivirus issue,2024-07-01 07:08:00,2024-07-01 12:25:00,Security & Compliance,Incident,medium,closed,Tech C,user_edbf7e98,5.28
+96,VPN / network access request,2024-07-02 05:38:00,2024-07-02 06:14:00,Network & VPN,Service Request,medium,closed,Tech C,user_a871fa05,0.6
+97,Software install / license request,2024-07-02 11:41:00,2024-07-02 12:40:00,Software & Licensing,Service Request,medium,closed,Tech C,user_36045edd,0.98
+98,Access / account request,2024-07-04 04:18:00,2024-07-05 04:19:00,Account & Access,Service Request,medium,closed,Tech C,user_0bd31d74,24.02
+99,Access / account request,2024-07-09 21:47:00,2024-07-09 21:50:00,Account & Access,Service Request,medium,closed,Tech A,user_0bd31d74,0.05
+100,Access / account request,2024-07-15 05:47:00,2024-07-15 06:13:00,Account & Access,Service Request,medium,closed,Tech C,user_aa0f8f37,0.43
+101,Access / account request,2024-07-17 22:20:00,2024-07-19 18:13:00,Account & Access,Service Request,high,closed,Tech A,user_d278f1cd,43.88
+102,Cloud resource / API key request,2024-07-17 23:23:00,2024-07-23 16:36:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech D,user_838f5657,137.22
+103,Access / account request,2024-07-18 07:15:00,2024-07-25 12:15:00,Account & Access,Service Request,medium,closed,Tech C,user_c5524ad9,173.0
+104,Hardware failure / malfunction,2024-07-22 04:57:00,2024-07-22 05:47:00,Hardware & Peripherals,Incident,high,closed,Tech C,user_36045edd,0.83
+105,VPN / network connectivity issue,2024-07-23 06:38:00,2024-07-23 07:08:00,Network & VPN,Incident,medium,closed,Tech C,user_81cb8071,0.5
+106,Phone / RingCentral setup,2024-07-23 16:40:00,2024-07-23 16:43:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_0d49fda5,0.05
+107,Security / access-control change,2024-07-23 17:10:00,2024-07-23 17:11:00,Security & Compliance,Change Request,medium,closed,Tech D,user_d8f5d9fb,0.02
+108,Software install / license request,2024-07-25 10:56:00,2024-07-25 12:07:00,Software & Licensing,Service Request,medium,closed,Tech C,user_152d5e88,1.18
+109,Cloud configuration change,2024-07-25 21:25:00,2024-07-30 17:53:00,"Cloud, DevOps & Platform",Change Request,high,closed,Tech D,user_d8f5d9fb,116.47
+110,Security access / tool request,2024-07-30 06:21:00,2024-07-30 10:02:00,Security & Compliance,Service Request,medium,closed,Tech C,user_5c4fd1f6,3.68
+111,VPN / network connectivity issue,2024-07-30 11:26:00,2024-07-30 12:11:00,Network & VPN,Incident,medium,closed,Tech C,user_b26ce6b2,0.75
+112,Phone / RingCentral change,2024-07-30 17:34:00,2024-07-30 20:09:00,Mobile & Phone,Change Request,medium,closed,Tech A,user_feb3c4f9,2.58
+113,Cloud resource / API key request,2024-07-30 18:06:00,2024-07-30 18:25:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech D,user_f6776b32,0.32
+114,Security / antivirus issue,2024-07-30 19:42:00,2024-07-30 19:42:00,Security & Compliance,Incident,medium,closed,Tech B,user_040e1d53,0.0
+115,Distribution list / email change,2024-08-01 18:29:00,2024-08-01 20:37:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_1209cdef,2.13
+116,VPN / network access request,2024-08-02 17:42:00,2024-08-02 19:57:00,Network & VPN,Service Request,medium,closed,Tech A,user_9e6f66e0,2.25
+117,VPN / network access request,2024-08-02 20:42:00,2024-08-02 22:12:00,Network & VPN,Service Request,medium,closed,Tech A,user_f888d2a5,1.5
+118,New DNS record request,2024-08-05 19:34:00,2024-08-06 20:47:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,25.22
+119,VPN / network connectivity issue,2024-08-06 17:17:00,2024-08-06 18:59:00,Network & VPN,Incident,medium,closed,Tech C,user_b99d3c61,1.7
+120,VPN / network connectivity issue,2024-08-06 17:20:00,2024-08-06 17:56:00,Network & VPN,Incident,medium,closed,Tech C,user_b89acb0a,0.6
+121,New DNS record request,2024-08-08 06:09:00,2024-08-14 05:56:00,DNS & Domains,Service Request,medium,closed,Tech B,user_4e1bc6f5,143.78
+122,VPN / network connectivity issue,2024-08-08 09:27:00,2024-08-23 12:13:00,Network & VPN,Incident,medium,closed,Tech C,user_b26ce6b2,362.77
+123,VPN / network connectivity issue,2024-08-08 12:24:00,2024-08-12 11:43:00,Network & VPN,Incident,medium,closed,Tech C,user_cd8e054d,95.32
+124,Software / application issue,2024-08-09 10:31:00,2024-08-17 04:31:00,Software & Licensing,Incident,medium,closed,Tech B,user_4e1bc6f5,186.0
+125,Phone / RingCentral setup,2024-08-12 05:09:00,2024-08-12 16:34:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_18524a47,11.42
+126,Security / antivirus issue,2024-08-12 06:11:00,2024-08-12 11:01:00,Security & Compliance,Incident,medium,closed,Tech C,user_922e1ed3,4.83
+127,Software / license change,2024-08-12 19:51:00,2024-08-12 19:53:00,Software & Licensing,Change Request,medium,closed,Tech A,user_a1000857,0.03
+128,Software / license change,2024-08-13 11:30:00,2024-08-13 12:14:00,Software & Licensing,Change Request,medium,closed,Tech C,user_ab444e79,0.73
+129,VPN / network connectivity issue,2024-08-13 18:17:00,2024-08-13 18:23:00,Network & VPN,Incident,medium,closed,Tech A,user_baedd46d,0.1
+130,Distribution list / email change,2024-08-14 16:49:00,2024-08-14 16:51:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_db4f7694,0.03
+131,Hardware / peripheral request,2024-08-14 17:30:00,2024-08-15 18:24:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_12e39d5e,24.9
+132,VPN / network access request,2024-08-15 20:51:00,2024-08-15 20:54:00,Network & VPN,Service Request,medium,closed,Tech A,user_f6776b32,0.05
+133,New DNS record request,2024-08-15 20:52:00,2024-08-15 20:59:00,DNS & Domains,Service Request,high,closed,Tech B,user_d32856b5,0.12
+134,DNS record update,2024-08-15 22:24:00,2024-08-15 22:27:00,DNS & Domains,Change Request,high,closed,Tech B,user_d32856b5,0.05
+135,Security / antivirus issue,2024-08-19 16:30:00,2024-08-19 16:40:00,Security & Compliance,Incident,medium,closed,Tech A,user_2f92a672,0.17
+136,Hardware failure / malfunction,2024-08-19 17:23:00,2024-08-20 19:37:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_7a859f55,26.23
+137,VPN / network access request,2024-08-20 06:32:00,2024-08-20 11:57:00,Network & VPN,Service Request,medium,closed,Tech C,user_b26ce6b2,5.42
+138,DNS record update,2024-08-20 18:47:00,2024-08-20 19:00:00,DNS & Domains,Change Request,medium,closed,Tech B,user_d32856b5,0.22
+139,VPN / network connectivity issue,2024-08-20 19:39:00,2024-08-20 19:45:00,Network & VPN,Incident,medium,closed,Tech A,user_e47ee107,0.1
+140,Phone / RingCentral change,2024-08-20 22:39:00,2024-08-20 22:40:00,Mobile & Phone,Change Request,medium,closed,Tech A,user_db4f7694,0.02
+141,Hardware failure / malfunction,2024-08-21 21:12:00,2024-08-21 21:14:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_0f037e63,0.03
+142,VPN / network access request,2024-08-22 04:22:00,2024-08-22 11:06:00,Network & VPN,Service Request,medium,closed,Tech C,user_2f56782a,6.73
+143,Software install / license request,2024-08-22 05:01:00,2024-08-22 11:05:00,Software & Licensing,Service Request,medium,closed,Tech C,user_2f56782a,6.07
+144,Software install / license request,2024-08-22 05:03:00,2024-08-22 11:05:00,Software & Licensing,Service Request,medium,closed,Tech C,user_2f56782a,6.03
+145,Phone / RingCentral setup,2024-08-22 17:31:00,2024-08-22 17:34:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_fecdb477,0.05
+146,VPN / network connectivity issue,2024-08-22 21:56:00,2024-08-22 21:59:00,Network & VPN,Incident,medium,closed,Tech A,user_12e39d5e,0.05
+147,VPN / network access request,2024-08-23 05:34:00,2024-08-23 06:18:00,Network & VPN,Service Request,high,closed,Tech C,user_d0ab5925,0.73
+148,VPN / network access request,2024-08-23 06:10:00,2024-08-23 06:35:00,Network & VPN,Service Request,medium,closed,Tech C,user_a871fa05,0.42
+149,VPN / network access request,2024-08-23 10:16:00,2024-08-26 11:09:00,Network & VPN,Service Request,medium,closed,Tech C,user_098205f0,72.88
+150,VPN / network access request,2024-08-26 11:06:00,2024-08-26 11:46:00,Network & VPN,Service Request,medium,closed,Tech C,user_577e60f1,0.67
+151,DNS record update,2024-08-27 01:02:00,2024-09-03 18:32:00,DNS & Domains,Change Request,medium,closed,Tech B,user_64ded2a8,185.5
+152,Login / account access issue,2024-08-27 17:05:00,2024-08-27 17:09:00,Account & Access,Incident,medium,closed,Tech A,user_dbb0b1f5,0.07
+153,VPN / network access request,2024-08-27 17:10:00,2024-08-27 17:17:00,Network & VPN,Service Request,medium,closed,Tech A,user_de239341,0.12
+154,Phone / RingCentral setup,2024-08-27 17:51:00,2024-08-27 22:08:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_882ca83a,4.28
+155,Access / account request,2024-08-27 18:14:00,2024-08-27 19:07:00,Account & Access,Service Request,medium,closed,Tech A,user_d278f1cd,0.88
+156,New DNS record request,2024-08-27 19:09:00,2024-09-03 18:24:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,167.25
+157,Hardware failure / malfunction,2024-08-27 22:55:00,2024-08-27 23:10:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_75a8d236,0.25
+158,Hardware failure / malfunction,2024-08-27 22:57:00,2024-09-03 18:29:00,Hardware & Peripherals,Incident,high,closed,Tech B,user_040e1d53,163.53
+159,Access / account request,2024-08-28 17:51:00,2024-08-28 17:51:00,Account & Access,Service Request,medium,closed,Tech A,user_de239341,0.0
+160,Email / Slack issue,2024-08-28 21:44:00,2024-08-28 21:50:00,Email & Collaboration,Incident,medium,closed,Tech A,user_aa347282,0.1
+161,Software / application issue,2024-08-28 23:34:00,2024-08-28 23:48:00,Software & Licensing,Incident,medium,closed,Tech A,user_de239341,0.23
+162,Hardware failure / malfunction,2024-08-30 05:30:00,2024-08-30 12:04:00,Hardware & Peripherals,Incident,medium,closed,Tech C,user_cd8e054d,6.57
+163,Security access / tool request,2024-09-03 17:49:00,2024-09-03 17:51:00,Security & Compliance,Service Request,high,closed,Tech B,user_a1000857,0.03
+164,Login / account access issue,2024-09-03 17:57:00,2024-09-03 17:58:00,Account & Access,Incident,high,closed,Tech B,user_a1000857,0.02
+165,Hardware failure / malfunction,2024-09-03 18:22:00,2024-09-03 18:24:00,Hardware & Peripherals,Incident,high,closed,Tech B,user_a1000857,0.03
+166,Hardware / peripheral request,2024-09-03 18:24:00,2024-09-03 18:24:00,Hardware & Peripherals,Service Request,high,closed,Tech B,user_a1000857,0.0
+167,Email / Slack issue,2024-09-04 15:11:00,2024-10-15 18:17:00,Email & Collaboration,Incident,high,closed,Tech B,user_a1000857,987.1
+168,Hardware / peripheral request,2024-09-04 17:18:00,2024-09-04 17:22:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_0d49fda5,0.07
+169,Hardware failure / malfunction,2024-09-04 21:10:00,2024-09-04 21:14:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_db4f7694,0.07
+170,Security / access-control change,2024-09-05 18:38:00,2025-11-10 15:26:00,Security & Compliance,Change Request,medium,closed,Tech B,user_a1000857,10340.8
+171,Hardware / peripheral request,2024-09-05 18:50:00,2024-09-05 18:53:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_e47ee107,0.05
+172,Security / access-control change,2024-09-05 20:39:00,,Security & Compliance,Change Request,medium,open,Tech B,user_a1000857,
+173,VPN / network access request,2024-09-06 16:39:00,2024-09-06 16:41:00,Network & VPN,Service Request,medium,closed,Tech A,user_56fc570b,0.03
+174,Software / application issue,2024-09-09 22:29:00,2024-09-09 22:30:00,Software & Licensing,Incident,medium,closed,Tech A,user_de239341,0.02
+175,VPN / network connectivity issue,2024-09-10 16:43:00,2024-09-10 16:47:00,Network & VPN,Incident,medium,closed,Tech A,user_4fb32e39,0.07
+176,Access / account request,2024-09-10 22:54:00,2024-09-10 23:17:00,Account & Access,Service Request,medium,closed,Tech A,user_838f5657,0.38
+177,Security / antivirus issue,2024-09-10 23:16:00,2024-09-10 23:17:00,Security & Compliance,Incident,medium,closed,Tech A,user_f888d2a5,0.02
+178,Hardware failure / malfunction,2024-09-11 23:09:00,2024-09-12 23:46:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_c5524ad9,24.62
+179,Cloud configuration change,2024-09-12 12:34:00,2024-09-18 12:47:00,"Cloud, DevOps & Platform",Change Request,medium,closed,Tech C,user_922e1ed3,144.22
+180,VPN / network connectivity issue,2024-09-13 20:45:00,2024-09-13 20:49:00,Network & VPN,Incident,medium,closed,Tech A,user_d278f1cd,0.07
+181,Login / account access issue,2024-09-16 17:14:00,2024-09-16 23:17:00,Account & Access,Incident,medium,closed,Tech A,user_e77c612e,6.05
+182,Access / account request,2024-09-17 16:34:00,2024-09-17 16:41:00,Account & Access,Service Request,medium,closed,Tech A,user_0b458010,0.12
+183,Hardware / peripheral request,2024-09-17 17:31:00,2024-09-17 17:32:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_56fc570b,0.02
+184,Software / license change,2024-09-19 05:09:00,2024-09-19 06:10:00,Software & Licensing,Change Request,medium,closed,Tech C,user_f9a4091d,1.02
+185,Hardware / peripheral request,2024-09-19 06:23:00,2024-09-24 10:54:00,Hardware & Peripherals,Service Request,medium,closed,Tech C,user_ab444e79,124.52
+186,Distribution list / email change,2024-09-20 18:34:00,2024-09-20 18:36:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_0d49fda5,0.03
+187,Access / account request,2024-09-24 10:56:00,2024-09-24 12:11:00,Account & Access,Service Request,medium,closed,Tech C,user_577e60f1,1.25
+188,Phone / RingCentral setup,2024-09-25 23:00:00,2024-09-25 23:02:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_b99d3c61,0.03
+189,Security access / tool request,2024-09-25 23:14:00,2024-09-25 23:16:00,Security & Compliance,Service Request,medium,closed,Tech A,user_de239341,0.03
+190,Security access / tool request,2024-09-26 11:33:00,2024-09-27 06:01:00,Security & Compliance,Service Request,medium,closed,Tech C,user_5f3af5a7,18.47
+191,Hardware failure / malfunction,2024-09-26 17:15:00,2024-09-26 17:18:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_baedd46d,0.05
+192,Security / antivirus issue,2024-09-27 06:34:00,2024-10-14 12:27:00,Security & Compliance,Incident,medium,closed,Tech C,user_2f56782a,413.88
+193,Access / account request,2024-09-27 19:29:00,2024-09-27 19:33:00,Account & Access,Service Request,medium,closed,Tech A,user_f888d2a5,0.07
+194,New hire setup,2024-10-01 00:09:00,2024-10-01 00:10:00,Hardware & Peripherals,Onboarding,medium,closed,Tech A,user_040e1d53,0.02
+195,New hire setup,2024-10-02 16:43:00,2024-10-02 16:43:00,Security & Compliance,Onboarding,medium,closed,Tech A,user_040e1d53,0.0
+196,Mobile / phone issue,2024-10-02 21:31:00,2024-10-02 21:34:00,Mobile & Phone,Incident,medium,closed,Tech A,user_515a3862,0.05
+197,Login / account access issue,2024-10-03 17:17:00,2024-10-03 17:21:00,Account & Access,Incident,medium,closed,Tech A,user_f888d2a5,0.07
+198,Software / application issue,2024-10-03 18:11:00,2024-10-03 18:14:00,Software & Licensing,Incident,medium,closed,Tech A,user_75a8d236,0.05
+199,Security / antivirus issue,2024-10-07 17:55:00,2024-10-07 18:00:00,Security & Compliance,Incident,medium,closed,Tech A,user_aecd036b,0.08
+200,Hardware / peripheral request,2024-10-08 18:34:00,2024-10-08 18:34:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_882ca83a,0.0
+201,Access / account request,2024-10-08 21:01:00,2024-10-08 21:01:00,Account & Access,Service Request,medium,closed,Tech A,user_e47ee107,0.0
+202,VPN / network connectivity issue,2024-10-08 21:06:00,2024-10-08 21:08:00,Network & VPN,Incident,medium,closed,Tech A,user_882ca83a,0.03
+203,Cloud service issue,2024-10-09 05:29:00,2024-10-14 12:21:00,"Cloud, DevOps & Platform",Incident,medium,closed,Tech C,user_4e1bc6f5,126.87
+204,Software install / license request,2024-10-09 22:03:00,2024-10-09 22:04:00,Software & Licensing,Service Request,medium,closed,Tech A,user_279a9bf1,0.02
+205,Phone / RingCentral setup,2024-10-14 06:13:00,2024-10-14 16:52:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_4e1bc6f5,10.65
+206,Login / account access issue,2024-10-14 17:08:00,2024-10-14 17:08:00,Account & Access,Incident,medium,closed,Tech A,user_279a9bf1,0.0
+207,Access / account request,2024-10-15 04:06:00,2024-10-15 09:34:00,Account & Access,Service Request,medium,closed,Tech C,user_2fc158ae,5.47
+208,Software / license change,2024-10-15 04:20:00,2024-10-15 09:37:00,Software & Licensing,Change Request,medium,closed,Tech C,user_ab444e79,5.28
+209,Email / group / alias request,2024-10-15 18:15:00,2024-10-15 18:16:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_515a3862,0.02
+210,New hire setup,2024-10-15 19:24:00,2024-10-15 19:24:00,Hardware & Peripherals,Onboarding,medium,closed,Tech A,user_e0fbfdd4,0.0
+211,Security / access-control change,2024-10-17 16:33:00,2024-10-17 16:34:00,Security & Compliance,Change Request,medium,closed,Tech A,user_d3a245d8,0.02
+212,VPN / network connectivity issue,2024-10-17 17:09:00,2024-10-17 17:09:00,Network & VPN,Incident,medium,closed,Tech A,user_de239341,0.0
+213,Phone / RingCentral setup,2024-10-17 22:09:00,2024-10-17 22:10:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_bdb0c1ab,0.02
+214,Phone / RingCentral change,2024-10-17 23:12:00,2024-10-17 23:13:00,Mobile & Phone,Change Request,medium,closed,Tech A,user_0f037e63,0.02
+215,Security / antivirus issue,2024-10-22 00:59:00,2024-10-31 20:48:00,Security & Compliance,Incident,medium,closed,Tech C,user_5f3af5a7,235.82
+216,Email / group / alias request,2024-10-23 17:00:00,2024-10-23 17:01:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_db4f7694,0.02
+217,Distribution list / email change,2024-10-23 17:25:00,2024-10-23 17:25:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_a1000857,0.0
+218,Email / group / alias request,2024-10-23 18:46:00,2024-10-23 18:46:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_e0fbfdd4,0.0
+219,Software / application issue,2024-10-23 18:56:00,2024-10-23 19:39:00,Software & Licensing,Incident,medium,closed,Tech A,user_1209cdef,0.72
+220,Login / account access issue,2024-10-23 19:42:00,2024-10-23 19:50:00,Account & Access,Incident,medium,closed,Tech A,user_bdb0c1ab,0.13
+221,Phone / RingCentral change,2024-10-24 21:54:00,2024-10-24 21:54:00,Mobile & Phone,Change Request,medium,closed,Tech A,user_04482cf2,0.0
+222,Software install / license request,2024-10-30 16:59:00,2024-10-30 17:00:00,Software & Licensing,Service Request,medium,closed,Tech A,user_d278f1cd,0.02
+223,Distribution list / email change,2024-11-01 17:37:00,2024-11-01 17:37:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_d3a245d8,0.0
+224,Phone / RingCentral setup,2024-11-04 23:20:00,2024-11-04 23:27:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_7a859f55,0.12
+225,Access / account request,2024-11-06 17:55:00,2024-11-06 17:56:00,Account & Access,Service Request,medium,closed,Tech A,user_d278f1cd,0.02
+226,VPN / network access request,2024-11-07 10:41:00,2024-11-07 11:15:00,Network & VPN,Service Request,medium,closed,Tech C,user_4e1bc6f5,0.57
+227,Hardware / peripheral request,2024-11-11 10:55:00,2024-11-11 11:30:00,Hardware & Peripherals,Service Request,medium,closed,Tech C,user_b26ce6b2,0.58
+228,Distribution list / email change,2024-11-13 04:55:00,2024-11-13 17:43:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_aecd036b,12.8
+229,Access / account request,2024-11-13 05:12:00,2024-11-13 06:09:00,Account & Access,Service Request,medium,closed,Tech C,user_aecd036b,0.95
+230,Login / account access issue,2024-11-13 17:46:00,2024-11-13 17:51:00,Account & Access,Incident,medium,closed,Tech A,user_2fc158ae,0.08
+231,Access / account request,2024-11-18 04:59:00,2024-11-18 05:16:00,Account & Access,Service Request,medium,closed,Tech C,user_b230120e,0.28
+232,Software / application issue,2024-11-18 21:25:00,2024-11-19 00:40:00,Software & Licensing,Incident,medium,closed,Tech A,user_2fc158ae,3.25
+233,Login / account access issue,2024-11-19 05:34:00,2024-11-20 06:25:00,Account & Access,Incident,medium,closed,Tech C,user_cc93ed8a,24.85
+234,Phone / RingCentral setup,2024-11-19 23:29:00,2024-11-19 23:31:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_2fc158ae,0.03
+235,Software / application issue,2024-11-21 04:07:00,2024-11-22 11:39:00,Software & Licensing,Incident,medium,closed,Tech C,user_ff90347b,31.53
+236,VPN / network connectivity issue,2024-11-21 04:45:00,2024-11-22 11:39:00,Network & VPN,Incident,medium,closed,Tech C,user_ff90347b,30.9
+237,VPN / network connectivity issue,2024-11-21 05:25:00,2024-11-21 07:16:00,Network & VPN,Incident,medium,closed,Tech C,user_9e211231,1.85
+238,Access / account request,2024-11-21 06:24:00,2024-11-21 08:39:00,Account & Access,Service Request,medium,closed,Tech C,user_5c4fd1f6,2.25
+239,VPN / network access request,2024-11-22 05:10:00,2024-11-22 11:44:00,Network & VPN,Service Request,medium,closed,Tech C,user_5c4fd1f6,6.57
+240,VPN / network connectivity issue,2024-11-22 05:21:00,2024-11-22 11:48:00,Network & VPN,Incident,medium,closed,Tech C,user_1ee7ede2,6.45
+241,VPN / network connectivity issue,2024-11-22 11:55:00,2024-12-03 05:58:00,Network & VPN,Incident,medium,closed,Tech C,user_577e60f1,258.05
+242,VPN / network connectivity issue,2024-11-22 12:23:00,2024-12-03 05:55:00,Network & VPN,Incident,medium,closed,Tech C,user_9e211231,257.53
+243,VPN / network connectivity issue,2024-11-25 18:35:00,2024-11-25 18:39:00,Network & VPN,Incident,high,closed,Tech A,user_2dfd7663,0.07
+244,Mobile / phone issue,2024-11-26 10:13:00,2024-12-02 17:33:00,Mobile & Phone,Incident,medium,closed,Tech A,user_602206f5,151.33
+245,Distribution list / email change,2024-12-02 17:53:00,2024-12-02 17:53:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_6a83c8dc,0.0
+246,Access / account request,2024-12-02 20:04:00,2024-12-02 20:08:00,Account & Access,Service Request,medium,closed,Tech A,user_e77c612e,0.07
+247,VPN / network access request,2024-12-03 05:51:00,2024-12-04 04:28:00,Network & VPN,Service Request,medium,closed,Tech C,user_882ca83a,22.62
+248,Access change / group update,2024-12-03 19:29:00,2024-12-03 19:30:00,Account & Access,Change Request,medium,closed,Tech A,user_ffd9b220,0.02
+249,Software / application issue,2024-12-03 19:34:00,2024-12-11 23:44:00,Software & Licensing,Incident,medium,closed,Tech A,user_e77c612e,196.17
+250,VPN / network access request,2024-12-05 05:39:00,2024-12-05 06:32:00,Network & VPN,Service Request,medium,closed,Tech C,user_d0ab5925,0.88
+251,Security / antivirus issue,2024-12-05 19:58:00,2024-12-05 20:08:00,Security & Compliance,Incident,medium,closed,Tech A,user_0f916524,0.17
+252,VPN / network connectivity issue,2024-12-06 06:16:00,2024-12-06 11:23:00,Network & VPN,Incident,medium,closed,Tech C,user_5da5dfe8,5.12
+253,VPN / network access request,2024-12-09 05:20:00,2024-12-12 04:27:00,Network & VPN,Service Request,medium,closed,Tech C,user_5c4fd1f6,71.12
+254,VPN / network connectivity issue,2024-12-12 04:20:00,2024-12-12 12:22:00,Network & VPN,Incident,medium,closed,Tech C,user_1ee7ede2,8.03
+255,Login / account access issue,2024-12-12 15:50:00,2024-12-12 18:13:00,Account & Access,Incident,medium,closed,Tech C,user_e77c612e,2.38
+256,VPN / network connectivity issue,2024-12-18 05:02:00,2024-12-19 04:07:00,Network & VPN,Incident,medium,closed,Tech C,user_5f3af5a7,23.08
+257,Distribution list / email change,2024-12-19 04:14:00,2024-12-19 18:06:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_1768d80a,13.87
+258,Hardware failure / malfunction,2024-12-19 06:53:00,2024-12-19 06:58:00,Hardware & Peripherals,Incident,medium,closed,Tech H,user_29620f1b,0.08
+259,Phone / RingCentral setup,2024-12-19 21:56:00,2024-12-19 21:56:00,Mobile & Phone,Service Request,medium,closed,Tech A,user_f6776b32,0.0
+260,Login / account access issue,2025-01-03 05:40:00,2025-01-14 19:54:00,Account & Access,Incident,medium,closed,Tech C,user_561ec530,278.23
+261,Hardware failure / malfunction,2025-01-09 18:24:00,2025-01-09 18:26:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_25f64d46,0.03
+262,VPN / network access request,2025-01-09 20:04:00,2025-01-09 20:05:00,Network & VPN,Service Request,medium,closed,Tech A,user_d278f1cd,0.02
+263,New DNS record request,2025-01-09 21:35:00,2025-01-10 05:29:00,DNS & Domains,Service Request,high,closed,Tech B,user_64ded2a8,7.9
+264,Software / application issue,2025-01-10 20:52:00,2025-01-10 20:58:00,Software & Licensing,Incident,medium,closed,Tech A,user_25f64d46,0.1
+265,Distribution list / email change,2025-02-03 17:57:00,2025-02-03 17:57:00,Email & Collaboration,Change Request,medium,closed,Tech A,user_beb811b5,0.0
+266,Cloud resource / API key request,2025-02-05 23:54:00,2025-07-24 03:31:00,"Cloud, DevOps & Platform",Service Request,high,closed,Tech B,user_f888d2a5,4035.62
+267,Email / group / alias request,2025-02-06 20:02:00,2025-02-06 20:03:00,Email & Collaboration,Service Request,medium,closed,Tech A,user_1f59ba9c,0.02
+268,VPN / network connectivity issue,2025-02-11 16:39:00,2025-02-11 18:53:00,Network & VPN,Incident,medium,closed,Tech A,user_2fc158ae,2.23
+269,VPN / network connectivity issue,2025-02-20 20:17:00,2025-02-20 20:24:00,Network & VPN,Incident,medium,closed,Tech A,user_ffd9b220,0.12
+270,Software / application issue,2025-02-24 23:13:00,2025-02-24 23:52:00,Software & Licensing,Incident,medium,closed,Tech A,user_75a8d236,0.65
+271,New DNS record request,2025-03-20 23:14:00,2025-03-27 21:19:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,166.08
+272,New DNS record request,2025-03-27 20:30:00,2025-03-27 21:19:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,0.82
+273,New DNS record request,2025-03-27 21:37:00,2025-03-27 21:42:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,0.08
+274,New DNS record request,2025-04-17 22:17:00,2025-04-17 22:36:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,0.32
+275,VPN / network connectivity issue,2025-04-23 17:25:00,2025-04-23 17:25:00,Network & VPN,Incident,medium,closed,Tech C,user_0f916524,0.0
+276,VPN / network connectivity issue,2025-04-23 18:51:00,2025-04-23 21:27:00,Network & VPN,Incident,medium,closed,Tech A,user_1209cdef,2.6
+277,New DNS record request,2025-05-08 22:46:00,2025-05-08 23:19:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,0.55
+278,DNS record update,2025-06-09 21:29:00,2025-06-11 18:21:00,DNS & Domains,Change Request,medium,closed,Tech B,user_64ded2a8,44.87
+279,Hardware failure / malfunction,2025-06-12 18:24:00,2025-06-16 22:32:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_1f59ba9c,100.13
+280,Hardware failure / malfunction,2025-06-17 22:22:00,2025-06-23 22:41:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_7f27f89b,144.32
+281,DNS record update,2025-06-26 21:31:00,2025-06-26 21:58:00,DNS & Domains,Change Request,medium,closed,Tech B,user_882ca83a,0.45
+282,Security access / tool request,2025-06-27 16:58:00,,Security & Compliance,Service Request,high,open,Tech B,user_2fc158ae,
+283,Hardware failure / malfunction,2025-07-03 21:13:00,2025-11-03 17:08:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_75a8d236,2947.92
+284,Hardware failure / malfunction,2025-07-03 21:29:00,2025-09-08 17:55:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_56fc570b,1604.43
+285,Hardware failure / malfunction,2025-07-03 21:40:00,2025-08-28 21:03:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_040e1d53,1343.38
+286,Hardware / peripheral request,2025-07-07 21:32:00,2025-07-07 22:22:00,Hardware & Peripherals,Service Request,medium,closed,Tech A,user_882ca83a,0.83
+287,Hardware failure / malfunction,2025-07-15 17:22:00,2025-08-26 20:52:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_56fc570b,1011.5
+288,Software install / license request,2025-07-22 17:23:00,2025-08-14 18:35:00,Software & Licensing,Service Request,high,closed,Tech A,user_94fc4681,553.2
+289,New DNS record request,2025-07-23 23:01:00,,DNS & Domains,Service Request,medium,open,Tech B,user_64ded2a8,
+290,New DNS record request,2025-08-01 20:29:00,2025-08-01 23:00:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,2.52
+291,New DNS record request,2025-08-01 22:51:00,2025-08-07 00:36:00,DNS & Domains,Service Request,medium,closed,Tech B,user_64ded2a8,121.75
+292,Cloud configuration change,2025-08-06 18:53:00,2025-08-06 21:45:00,"Cloud, DevOps & Platform",Change Request,medium,closed,Tech B,user_ffd9b220,2.87
+293,Cloud resource / API key request,2025-08-06 21:51:00,,"Cloud, DevOps & Platform",Service Request,low,open,Tech B,user_750fb5c4,
+294,Cloud resource / API key request,2025-08-14 18:14:00,2025-09-03 11:22:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech G,user_d32856b5,473.13
+295,VPN / network access request,2025-08-25 19:22:00,2025-09-29 17:27:00,Network & VPN,Service Request,high,closed,Tech A,user_db4f7694,838.08
+296,Hardware failure / malfunction,2025-08-26 19:33:00,2025-09-03 21:08:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_7f27f89b,193.58
+297,Software install / license request,2025-09-03 11:24:00,2025-10-01 21:14:00,Software & Licensing,Service Request,low,closed,Tech B,user_750fb5c4,681.83
+298,New DNS record request,2025-09-08 22:18:00,2025-10-01 21:07:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,550.82
+299,New DNS record request,2025-09-11 22:23:00,2025-09-16 04:39:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,102.27
+300,New hire setup,2025-09-23 18:46:00,2026-03-04 23:33:00,Account & Access,Onboarding,high,closed,Tech B,user_040e1d53,3892.78
+301,New DNS record request,2025-09-23 22:48:00,2025-10-01 20:58:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,190.17
+302,New DNS record request,2025-09-23 22:54:00,2025-10-01 20:58:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,190.07
+303,DNS record update,2025-10-01 21:11:00,2025-10-01 21:12:00,DNS & Domains,Change Request,low,closed,Tech B,user_a1000857,0.02
+304,New DNS record request,2025-10-03 17:02:00,2025-10-21 21:13:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,436.18
+305,New DNS record request,2025-10-13 21:41:00,,DNS & Domains,Service Request,low,open,Tech B,user_a1000857,
+306,Cloud resource / API key request,2025-10-16 17:51:00,2025-10-16 17:57:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech B,user_2fc158ae,0.1
+307,New DNS record request,2025-10-27 17:27:00,2025-10-27 19:08:00,DNS & Domains,Service Request,medium,closed,Tech B,user_edcc36b6,1.68
+308,New DNS record request,2025-10-31 17:40:00,2025-11-04 20:04:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,98.4
+309,New DNS record request,2025-11-04 00:59:00,2025-11-04 20:03:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,19.07
+310,New DNS record request,2025-11-05 01:11:00,2025-11-05 18:29:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,17.3
+311,New DNS record request,2025-11-05 01:20:00,2025-11-05 18:25:00,DNS & Domains,Service Request,medium,closed,Tech B,user_882ca83a,17.08
+312,DNS record update,2025-11-07 21:49:00,2025-11-07 21:55:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,0.1
+313,DNS record update,2025-11-10 17:14:00,,DNS & Domains,Change Request,medium,waiting,Tech B,user_edcc36b6,
+314,DNS record update,2025-11-10 17:30:00,2025-11-10 19:46:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2.27
+315,DNS record update,2025-11-10 17:37:00,2025-11-10 19:54:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2.28
+316,DNS record update,2025-11-10 17:39:00,2025-11-10 21:54:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,4.25
+317,DNS record update,2025-11-10 17:44:00,2025-11-10 21:56:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,4.2
+318,DNS record update,2025-11-10 17:47:00,2026-02-26 22:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.97
+319,DNS record update,2025-11-10 17:49:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.92
+320,DNS record update,2025-11-10 17:51:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.88
+321,DNS record update,2025-11-10 17:54:00,2026-02-26 22:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.85
+322,DNS record update,2025-11-10 17:56:00,2026-02-26 22:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.82
+323,DNS record update,2025-11-10 17:59:00,2026-02-26 22:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.77
+324,New DNS record request,2025-11-10 18:03:00,2025-11-10 20:21:00,DNS & Domains,Service Request,medium,closed,Tech B,user_edcc36b6,2.3
+325,DNS record update,2025-11-10 18:05:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.65
+326,DNS record update,2025-11-10 18:20:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.4
+327,DNS record update,2025-11-10 18:37:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2596.12
+328,DNS record update,2025-11-10 19:02:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.7
+329,DNS record update,2025-11-10 19:19:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.42
+330,DNS record update,2025-11-10 19:20:00,2026-02-26 22:43:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.38
+331,DNS record update,2025-11-10 19:22:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.37
+332,DNS record update,2025-11-10 19:23:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.35
+333,DNS record update,2025-11-10 19:27:00,2026-02-26 22:43:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.27
+334,DNS record update,2025-11-10 19:30:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.23
+335,DNS record update,2025-11-10 19:32:00,2026-02-26 22:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.22
+336,DNS record update,2025-11-10 19:35:00,2026-02-26 22:44:00,DNS & Domains,Change Request,medium,closed,Tech B,user_edcc36b6,2595.15
+337,Hardware failure / malfunction,2025-11-17 19:27:00,2025-11-18 23:52:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_a1000857,28.42
+338,New DNS record request,2025-11-18 00:37:00,2025-11-18 01:19:00,DNS & Domains,Service Request,medium,closed,Tech B,user_c8f8628b,0.7
+339,New DNS record request,2025-11-18 00:39:00,2025-11-18 01:18:00,DNS & Domains,Service Request,medium,closed,Tech B,user_c8f8628b,0.65
+340,New DNS record request,2025-11-18 23:15:00,2025-11-18 23:51:00,DNS & Domains,Service Request,medium,closed,Tech B,user_c8f8628b,0.6
+341,Cloud resource / API key request,2025-12-09 07:06:00,2025-12-17 19:26:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech B,user_9e6f66e0,204.33
+342,Cloud resource / API key request,2025-12-09 17:53:00,2025-12-16 19:53:00,"Cloud, DevOps & Platform",Service Request,high,closed,Tech B,user_fecdb477,170.0
+343,Cloud resource / API key request,2025-12-11 16:36:00,,"Cloud, DevOps & Platform",Service Request,medium,open,Tech B,user_9e6f66e0,
+344,Access / account request,2025-12-12 18:56:00,2025-12-12 22:19:00,Account & Access,Service Request,high,closed,Tech F,user_94fc4681,3.38
+345,DNS record update,2025-12-12 23:48:00,2025-12-13 00:14:00,DNS & Domains,Change Request,medium,closed,Tech B,user_a1000857,0.43
+346,DNS record update,2025-12-12 23:56:00,2025-12-13 00:14:00,DNS & Domains,Change Request,medium,closed,Tech B,user_c8f8628b,0.3
+347,Hardware failure / malfunction,2025-12-15 18:00:00,2025-12-15 18:36:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_515a3862,0.6
+348,New DNS record request,2025-12-17 19:10:00,2025-12-17 19:26:00,DNS & Domains,Service Request,medium,closed,Tech B,user_c8f8628b,0.27
+349,New DNS record request,2026-01-16 19:52:00,2026-01-16 23:58:00,DNS & Domains,Service Request,high,closed,Tech B,user_c8f8628b,4.1
+350,New DNS record request,2026-01-17 00:15:00,,DNS & Domains,Service Request,medium,open,Tech B,user_c8f8628b,
+351,New DNS record request,2026-01-19 21:20:00,2026-01-19 21:40:00,DNS & Domains,Service Request,medium,closed,Tech F,user_edcc36b6,0.33
+352,New DNS record request,2026-01-22 23:08:00,2026-01-22 23:21:00,DNS & Domains,Service Request,medium,closed,Tech A,user_c8f8628b,0.22
+353,Hardware failure / malfunction,2026-01-27 00:00:00,2026-02-03 22:10:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_2f92a672,190.17
+354,Hardware failure / malfunction,2026-01-27 23:17:00,2026-05-05 17:27:00,Hardware & Peripherals,Incident,high,closed,Tech A,user_d733c06a,2346.17
+355,New DNS record request,2026-01-30 23:45:00,,DNS & Domains,Service Request,medium,open,Tech B,user_c8f8628b,
+356,Cloud resource / API key request,2026-02-12 23:27:00,2026-02-26 22:45:00,"Cloud, DevOps & Platform",Service Request,medium,closed,Tech B,user_edcc36b6,335.3
+357,New DNS record request,2026-02-25 21:45:00,2026-02-25 21:51:00,DNS & Domains,Service Request,high,closed,Tech A,user_c8f8628b,0.1
+358,New DNS record request,2026-02-26 20:12:00,2026-02-26 22:43:00,DNS & Domains,Service Request,medium,closed,Tech E,user_c8f8628b,2.52
+359,New DNS record request,2026-03-05 23:50:00,2026-03-06 21:59:00,DNS & Domains,Service Request,high,closed,Tech E,user_c8f8628b,22.15
+360,DNS record update,2026-03-10 17:13:00,2026-03-10 17:59:00,DNS & Domains,Change Request,high,closed,Tech E,user_c8f8628b,0.77
+361,DNS record update,2026-03-12 06:54:00,2026-03-22 17:22:00,DNS & Domains,Change Request,high,closed,Tech B,user_f9a04c50,250.47
+362,DNS record update,2026-03-12 17:33:00,2026-03-12 17:45:00,DNS & Domains,Change Request,medium,closed,Tech B,user_f9a04c50,0.2
+363,New DNS record request,2026-03-18 22:31:00,2026-03-18 23:06:00,DNS & Domains,Service Request,high,closed,Tech E,user_c8f8628b,0.58
+364,Security / access-control change,2026-03-20 06:11:00,2026-03-22 17:21:00,Security & Compliance,Change Request,high,closed,Tech B,user_f9a04c50,59.17
+365,DNS record update,2026-04-03 22:37:00,2026-04-03 22:51:00,DNS & Domains,Change Request,high,closed,Tech E,user_c8f8628b,0.23
+366,New DNS record request,2026-04-07 22:56:00,2026-04-08 04:59:00,DNS & Domains,Service Request,high,closed,Tech E,user_c8f8628b,6.05
+367,Hardware failure / malfunction,2026-04-25 00:42:00,2026-05-05 16:41:00,Hardware & Peripherals,Incident,medium,closed,Tech A,user_515a3862,255.98
+368,New DNS record request,2026-05-13 20:09:00,2026-05-13 20:32:00,DNS & Domains,Service Request,high,closed,Tech B,user_f9a04c50,0.38
+369,New DNS record request,2026-05-15 17:21:00,2026-05-15 22:45:00,DNS & Domains,Service Request,high,closed,Tech B,user_f9a04c50,5.4
+370,DNS record update,2026-05-22 18:12:00,,DNS & Domains,Change Request,medium,open,Tech E,user_f9a04c50,
+372,Cloud resource / API key request,2026-06-04 20:31:00,,"Cloud, DevOps & Platform",Service Request,medium,open,Tech B,user_fecdb477,
+373,Cloud configuration change,2026-06-12 17:53:00,,"Cloud, DevOps & Platform",Change Request,medium,waiting,Tech B,user_74ac5634,
