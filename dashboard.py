@@ -207,20 +207,55 @@ fdf = df[mask]
 # Helpers
 # --------------------------------------------------------------------------- #
 def sorted_bar(series: pd.Series, value_title: str, color: str = "#3B82F6"):
-    """Vertical bar chart sorted left→right, lowest→highest value."""
+    """Vertical bar chart sorted left→right, lowest→highest value, with value labels on top."""
     d = series.rename_axis("label").reset_index(name="value")
-    return (
-        alt.Chart(d)
-        .mark_bar(color=color)
-        .encode(
-            x=alt.X("label:N", title=None,
-                    sort=alt.EncodingSortField(field="value", order="ascending"),
-                    axis=alt.Axis(labelAngle=-40)),
-            y=alt.Y("value:Q", title=value_title),
-            tooltip=[alt.Tooltip("label:N", title=""), alt.Tooltip("value:Q", title=value_title)],
-        )
-        .properties(height=300, width="container")
+    # Whole numbers (e.g. ticket counts) show as integers; otherwise one decimal (e.g. hours).
+    whole = bool((d["value"].dropna() % 1 == 0).all())
+    num_fmt = "d" if whole else ".1f"
+    sort = alt.EncodingSortField(field="value", order="ascending")
+
+    base = alt.Chart(d).encode(
+        x=alt.X("label:N", title=None, sort=sort,
+                axis=alt.Axis(labelAngle=-40, labelOverlap=False, labelLimit=200)),
     )
+    bars = base.mark_bar(color=color).encode(
+        y=alt.Y("value:Q", title=value_title),
+        tooltip=[alt.Tooltip("label:N", title=""),
+                 alt.Tooltip("value:Q", title=value_title, format=num_fmt)],
+    )
+    labels = base.mark_text(dy=-6, color="#E2E8F0", fontSize=12).encode(
+        y=alt.Y("value:Q"),
+        text=alt.Text("value:Q", format=num_fmt),
+    )
+    return (bars + labels).properties(height=300, width="container")
+
+
+def sorted_bar_h(series: pd.Series, value_title: str, color: str = "#3B82F6"):
+    """Horizontal bar chart sorted biggest-on-top, with value labels at the bar end.
+
+    Better than vertical bars when category names are long or numerous.
+    """
+    d = series.rename_axis("label").reset_index(name="value")
+    whole = bool((d["value"].dropna() % 1 == 0).all())
+    num_fmt = "d" if whole else ".1f"
+    sort = alt.EncodingSortField(field="value", order="descending")
+    # ~28px per row keeps bars readable whether there are 4 categories or 12.
+    height = max(220, 34 * len(d))
+
+    base = alt.Chart(d).encode(
+        y=alt.Y("label:N", title=None, sort=sort,
+                axis=alt.Axis(labelLimit=260)),
+    )
+    bars = base.mark_bar(color=color).encode(
+        x=alt.X("value:Q", title=value_title),
+        tooltip=[alt.Tooltip("label:N", title=""),
+                 alt.Tooltip("value:Q", title=value_title, format=num_fmt)],
+    )
+    labels = base.mark_text(dx=5, align="left", color="#E2E8F0", fontSize=12).encode(
+        x=alt.X("value:Q"),
+        text=alt.Text("value:Q", format=num_fmt),
+    )
+    return (bars + labels).properties(height=height, width="container")
 
 
 def pie_chart(series: pd.Series, title: str | None = None):
@@ -394,9 +429,9 @@ with tab_overview:
     g1, g2 = st.columns(2)
     with g1:
         st.subheader("Tickets by category")
-        st.altair_chart(sorted_bar(fdf["category"].value_counts(), "Tickets"))
+        st.altair_chart(sorted_bar_h(fdf["category"].value_counts(), "Tickets"))
         st.subheader("Median resolution by category (h)")
-        st.altair_chart(sorted_bar(
+        st.altair_chart(sorted_bar_h(
             fdf.dropna(subset=["resolution_hours"]).groupby("category")["resolution_hours"].median(),
             "Hours", color="#F87171"))
     with g2:
@@ -458,14 +493,20 @@ with tab_kpis:
         st.subheader("Throughput — created vs closed")
         tp = kpis.throughput(kdf)[["month", "created", "closed"]].melt(
             "month", var_name="metric", value_name="tickets")
+        # "2024-03" strings → real dates so the axis spaces/labels itself cleanly.
+        tp["month"] = pd.to_datetime(tp["month"], format="%Y-%m")
+        tp["metric"] = tp["metric"].str.title()
         tp_line = (
             alt.Chart(tp)
             .mark_line(point=True)
             .encode(
-                x=alt.X("month:N", title=None),
+                x=alt.X("month:T", title=None,
+                        axis=alt.Axis(format="%b %Y", labelAngle=0)),
                 y=alt.Y("tickets:Q", title="Tickets"),
                 color=alt.Color("metric:N", title=None),
-                tooltip=["month", "metric", "tickets"],
+                tooltip=[alt.Tooltip("month:T", title="Month", format="%b %Y"),
+                         alt.Tooltip("metric:N", title=""),
+                         alt.Tooltip("tickets:Q", title="Tickets")],
             )
             .properties(height=300, width="container")
         )
@@ -476,16 +517,19 @@ with tab_kpis:
             st.caption("No open tickets in range.")
         else:
             order = ["0-7 days", "8-30 days", "31-90 days", "90+ days"]
-            chart = (
-                alt.Chart(aging)
-                .mark_bar(color="#3B82F6")
-                .encode(
-                    x=alt.X("age_bucket:N", title=None, sort=order),
-                    y=alt.Y("tickets:Q", title="Tickets"),
-                    tooltip=["age_bucket", "tickets"],
-                )
-                .properties(height=300, width="container")
+            base = alt.Chart(aging).encode(
+                x=alt.X("age_bucket:N", title=None, sort=order,
+                        axis=alt.Axis(labelAngle=0)),
             )
+            bars = base.mark_bar(color="#3B82F6").encode(
+                y=alt.Y("tickets:Q", title="Tickets"),
+                tooltip=["age_bucket", "tickets"],
+            )
+            labels = base.mark_text(dy=-6, color="#E2E8F0", fontSize=12).encode(
+                y=alt.Y("tickets:Q"),
+                text=alt.Text("tickets:Q", format="d"),
+            )
+            chart = (bars + labels).properties(height=300, width="container")
             st.altair_chart(chart)
 
 
@@ -677,7 +721,7 @@ average handling time and deflection rate — and both are easy to adjust to mat
     st.caption("A more specific lens than category alone. Issue titles are derived from the "
                "category + request-type taxonomy (structural, not text-mined free text).")
     issue_counts = fdf["issue"].value_counts().head(8)
-    st.altair_chart(sorted_bar(issue_counts, "Tickets"))
+    st.altair_chart(sorted_bar_h(issue_counts, "Tickets"))
 
     st.divider()
     st.markdown("##### Exports")
