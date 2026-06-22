@@ -141,6 +141,7 @@ Built incrementally; each pass sharpened either the analysis, the trust model, o
 | 9 | Insight depth | Derived issue titles + "top recurring issues"; executive-summary redesign with KPI cards |
 | 10 | Robustness | New-export fallback that canonicalizes the export's own Category / Request Type columns |
 | 11 | Presentation | Dark, themed enterprise UI; widened layout; neutral product name and branding |
+| 12 | Chart readability | Value labels on every bar; horizontal bars with full, untruncated names for long category lists; flattened backlog-age labels; throughput switched to a real time axis that auto-spaces month labels |
 
 ## Files
 
