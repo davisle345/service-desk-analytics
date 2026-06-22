@@ -1,0 +1,14 @@
+# Local data & generated artifacts
+output/
+*.db
+tickets_clean.csv
+raw_export.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
